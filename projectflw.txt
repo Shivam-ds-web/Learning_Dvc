@@ -4,3 +4,9 @@
 4. Pip install dvc
 5. Now initialize dvc using 'dvc init'(creates .dvcignore,.dvc)
 6. Now create new folder (S3)
+7. Now do 'dvc remote add -d myremote S3' to add repo
+8. Now add data fles to dvc using 'dvc add data(datafiles)'
+9. To stop git from tracking the data folder or data files use these two commands
+  1. git rm -r --cached 'data'
+  2. git commit -m 'stop tracking data'
+10. Now do 'dvc commit' and 'dvc push' (it will store the data and the dvc file at the S3)
