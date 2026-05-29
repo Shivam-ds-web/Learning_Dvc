@@ -1,0 +1,6 @@
+1. create git repo and clone it in local
+2. Create code.py and add code to it(it will save a csv file to a new 'data' folder)
+3. Do a git commit push before intializeing dvc
+4. Pip install dvc
+5. Now initialize dvc using 'dvc init'(creates .dvcignore,.dvc)
+6. Now create new folder (S3)
