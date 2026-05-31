@@ -14,4 +14,7 @@ os.makedirs('S3',exist_ok=True)
 new_row = {'Name' : 'Yash','Salary' : 50000}
 dataf.loc[len(dataf.index)] = new_row
 dataf.to_csv(file_path)
+new_row2 = {'Name' : 'Xyz','Salary' : 60000}
+dataf.loc[len(dataf.index)] = new_row2
+dataf.to_csv(file_path)
 print(dataf)
