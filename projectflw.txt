@@ -10,3 +10,6 @@
   1. git rm -r --cached 'data'
   2. git commit -m 'stop tracking data'
 10. Now do 'dvc commit' and 'dvc push' (it will store the data and the dvc file at the S3)
+11. Do git commit and push to mark this stage as first version of data
+12. Now make changes in data by addding a new row ,check changes via dvc status
+13. Perform 'dvc commit' annd 'dvc push'
